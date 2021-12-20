@@ -4,11 +4,7 @@
 _________________
 
 ### Sobre
-O presente projeto tem como objetivo a implementação de uma base de dados, sua manipulação e transformação em modelo de análise de dados de uma empresa fictícia, cujo enquadramento de segue.
-
-### Tecnologias
-- SQL Server
-- VBA
+O presente projeto tem como objetivo a implementação de uma base de dados, sua manipulação e transformação em modelo de análise de dados de uma empresa fictícia, cujo enquadramento Se segue.
 
 #### Enquadramento
 A empresa dispõe de vários centros de atendimento onde realiza a prestação de serviços de manutenção em equipamentos industriais. Cada centro de atendimento possui seus próprios funcionários, no qual realizam os diversos serviços oferecidos a variados clientes. Atualmente cada unidade realiza o registo de suas atividades de forma distinta, algumas utilizam softwares de terceiros, outras fazem de forma manual, o que dificulta a análise dos dados e tomada de decisão da alta gerência que representa as unidades.
@@ -41,7 +37,7 @@ A empresa busca centralizar os registos dos centros de atendimento, tendo como p
 </div>
 
 #### Povoamento
-O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóriamente, de forma com que se pudesse possibilitar a utilização das ferramentas e simular a estrutura para uma análise de dados, o mcódigo utilizado segue em <a href="https://github.com/viniciusariza/bd-equip-industriais/tree/main/002%20-%20vba-povoamento">vba-povoamento</a>.
+O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóriamente, de forma com que se pudesse possibilitar a utilização das ferramentas e simular a estrutura para uma análise de dados, o código utilizado segue em <a href="https://github.com/viniciusariza/bd-equip-industriais/tree/main/002%20-%20vba-povoamento">vba-povoamento</a>.
 
 #### Índices e Views
 <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/003-indices.sql">indices.sql</a> e <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/004-views.sql">views.sql</a>.
@@ -56,4 +52,4 @@ O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóri
 <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/005-queries.sql">queries.sql</a>.
 
 #### Análise de Dados
-No projeto foi optado pela criação das views <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/008-views-olap.sql">views-olap.sql</a>, facilitando a geração da tabela fato e das dimensões. Como o objetivo do projeto foi apenas de treinamento, não foi elaborada uma estrutura sólida de dados, bases intermediárias e fluxo bem estabelecido de atualiazações. O modelos star schema foi carregado diretamente no Power Query, onde foram realizados tratamentos e posteriormente criado medias para a geração do relatório final.
+No projeto foi optado pela criação das views <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/008-views-olap.sql">views-olap.sql</a>, facilitando a geração da tabela fato e das dimensões. Como o objetivo do projeto foi, principalmente, o treinamento na utilização de linguagem SQL, não foi elaborada uma estrutura sólida de dados, bases intermediárias e fluxo bem estabelecido de atualiazações. O modelo star schema foi carregado diretamente no Power Query, onde foram realizados tratamentos e posteriormente criadas medidas para a geração do relatório final.
