@@ -37,27 +37,27 @@ A empresa busca centralizar os registos dos centros de atendimento, tendo como p
 #### Modelo Entidade-Relacionamento
 
 <div align="center" >
-  <img src="modeloer.png">
+  <img src="modeloer.png" width="320" height="205">
 </div>
 
 #### Povoamento
-O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóriamente, de forma com que se pudesse possibilitar a utilização das ferramentas e simular a estrutura para uma análise de dados, o mcódigo utilizado segue em <a href="">vba-povoamento</a>.
+O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóriamente, de forma com que se pudesse possibilitar a utilização das ferramentas e simular a estrutura para uma análise de dados, o mcódigo utilizado segue em <a href="https://github.com/viniciusariza/bd-equip-industriais/tree/main/002%20-%20vba-povoamento">vba-povoamento</a>.
 
 #### Índices e Views
-<a href="">indices.sql</a> e <a href="">views.sql</a>.
+<a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/003-indices.sql">indices.sql</a> e <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/004-views.sql">views.sql</a>.
 
 #### Procedures
-<a href="">procedures.sql</a>.
+<a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/006-procedures.sql">procedures.sql</a>.
 
 #### Triggers
-<a href="">triggers.sql</a>.
+<a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/007-triggers.sql">triggers.sql</a>.
 
 #### Queries
-<a href="">queries.sql</a>.
+<a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/005-queries.sql">queries.sql</a>.
 
 #### Análise de Dados
-No projeto foi optado pela criação das views <a href="">queries.sql</a>, facilitando a geração da tabela fato e das dimensões. Como o objetivo do projeto foi apenas de treinamento, não foi elaborada uma estrutura sólida de dados, bases intermediárias e fluxo bem estabelecido de atualiazações. O modelos star schema foi carregado diretamente no Power Query, onde foram realizados tratamentos e posteriormente criado medias para a geração do relatório final.
+No projeto foi optado pela criação das views <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/008-views-olap.sql">views-olap.sql</a>, facilitando a geração da tabela fato e das dimensões. Como o objetivo do projeto foi apenas de treinamento, não foi elaborada uma estrutura sólida de dados, bases intermediárias e fluxo bem estabelecido de atualiazações. O modelos star schema foi carregado diretamente no Power Query, onde foram realizados tratamentos e posteriormente criado medias para a geração do relatório final.
 
 <div align="center" >
-  <img src="relatorio.png">
+  <img src="relatorio.png" width="320" height="205">
 </div>
