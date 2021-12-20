@@ -37,7 +37,7 @@ A empresa busca centralizar os registos dos centros de atendimento, tendo como p
 #### Modelo Entidade-Relacionamento
 
 <div align="center" >
-  <img src="modeloer.png" width="320" height="205">
+  <img src="modeloer.png" width="640" height="400">
 </div>
 
 #### Povoamento
@@ -59,5 +59,5 @@ O povoamento da base de dados foi feito utilizando VBA e dados gerados aleatóri
 No projeto foi optado pela criação das views <a href="https://github.com/viniciusariza/bd-equip-industriais/blob/main/001%20-%20bd-queries/008-views-olap.sql">views-olap.sql</a>, facilitando a geração da tabela fato e das dimensões. Como o objetivo do projeto foi apenas de treinamento, não foi elaborada uma estrutura sólida de dados, bases intermediárias e fluxo bem estabelecido de atualiazações. O modelos star schema foi carregado diretamente no Power Query, onde foram realizados tratamentos e posteriormente criado medias para a geração do relatório final.
 
 <div align="center" >
-  <img src="relatorio.png" width="320" height="205">
+  <img src="relatorio.png" width="640" height="400">
 </div>
