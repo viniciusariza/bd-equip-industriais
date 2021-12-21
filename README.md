@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>Equipamentos Industriais - Desenvolvimento de banco de dados relacional, modelo para análise de dados e relatórios</h1>
+  <h1>Equipamentos Industriais - Concepção de um banco de dados relacional e geração de um modelo para análise de dados</h1>
 </div>
 _________________
 
 ### Sobre
-O presente projeto tem como objetivo a implementação de uma base de dados, sua manipulação e transformação em modelo de análise de dados de uma empresa fictícia, cujo enquadramento Se segue.
+O presente projeto tem como objetivo a implementação de uma base de dados, sua manipulação e transformação em modelo de análise de dados de uma empresa fictícia, cujo enquadramento se segue.
 
 #### Enquadramento
 A empresa dispõe de vários centros de atendimento onde realiza a prestação de serviços de manutenção em equipamentos industriais. Cada centro de atendimento possui seus próprios funcionários, no qual realizam os diversos serviços oferecidos a variados clientes. Atualmente cada unidade realiza o registo de suas atividades de forma distinta, algumas utilizam softwares de terceiros, outras fazem de forma manual, o que dificulta a análise dos dados e tomada de decisão da alta gerência que representa as unidades.
